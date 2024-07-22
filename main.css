@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #E7E7E7;
+    padding-top: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    height: 72px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    margin-bottom: 56px;
+}
+
+form input{
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border: 1px solid black;
+    padding: 6px;
+    margin-right: 6px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
+form button{
+    background-color: #5c5ec7;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: 19px;
+}
+
+button:hover{
+    background-color: #5c5ec781;
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td{
+    text-align: center;
+    font-size: 22px;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+table td img{
+    height: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+table td img:hover{
+    opacity: 0.5;
+}
+
